@@ -29,3 +29,9 @@ docker run --name jenkins-blueocean --rm --detach \
   --volume "$HOME":/home \
   myjenkins
 ```
+5. Run http://your_ip:8080
+
+6. Get initialPassword for jenkins
+```bash
+docker logs jenkins-blueocean
+```
